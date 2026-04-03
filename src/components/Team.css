@@ -1,0 +1,48 @@
+.team {
+  margin: 40px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.team-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-photo:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 1024px) {
+  .team {
+    margin: 24px;
+    padding: 24px;
+  }
+  .team-photo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team {
+    margin: 16px;
+    padding: 16px;
+  }
+  .team-photo {
+    width: 75px;
+    height: 75px;
+  }
+}

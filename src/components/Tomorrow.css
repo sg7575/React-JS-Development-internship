@@ -1,0 +1,120 @@
+.tomorrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 60px;
+  position: relative;
+  gap: 80px;
+}
+
+.tomorrow-left {
+  max-width: 420px;
+  position: relative;
+}
+
+.tomorrow-left h2 {
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.tomorrow-left h2 .underline {
+  text-decoration: underline;
+  text-decoration-color: #f5c400;
+  text-underline-offset: 6px;
+}
+
+.tomorrow-left p {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.read-more {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.read-more::after {
+  content: '________';
+  letter-spacing: -2px;
+  color: black;
+}
+
+.pink-square {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #f9a8d4;
+  top: 0;
+  right: 60px;
+}
+
+.tomorrow-right {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.tomorrow-image {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.red-square {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background: #f87171;
+  top: -10px;
+  right: -10px;
+  z-index: -1;
+}
+
+.blob-pink {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, #fce7f3, transparent);
+  left: -60px;
+  bottom: -40px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@media (max-width: 1024px) {
+  .tomorrow {
+    gap: 40px;
+    padding: 60px 40px;
+  }
+  .tomorrow-image {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tomorrow {
+    flex-direction: column;
+    padding: 40px 24px;
+    text-align: center;
+  }
+  .tomorrow-image {
+    width: 240px;
+    height: 240px;
+  }
+  .read-more {
+    justify-content: center;
+  }
+  .pink-square {
+    display: none;
+  }
+}
