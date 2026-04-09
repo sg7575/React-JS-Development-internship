@@ -9,16 +9,16 @@ export default function Header() {
           <h4>Company</h4>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Studio</a>
+              <a href="/">Studio</a>
             </li>
             <li>
-              <a href="#">Service</a>
+              <a href="/">Service</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="/">Blog</a>
             </li>
           </ul>
         </div>
@@ -27,16 +27,16 @@ export default function Header() {
           <h4>Terms & Policies</h4>
           <ul>
             <li>
-              <a href="#">Privacy Policy</a>
+              <a href="/">Privacy Policy</a>
             </li>
             <li>
-              <a href="#">Terms & Conditions</a>
+              <a href="/">Terms & Conditions</a>
             </li>
             <li>
-              <a href="#">Explore</a>
+              <a href="/">Explore</a>
             </li>
             <li>
-              <a href="#">Accessibility</a>
+              <a href="/">Accessibility</a>
             </li>
           </ul>
         </div>
@@ -45,16 +45,16 @@ export default function Header() {
           <h4>Follow Us</h4>
           <ul>
             <li>
-              <a href="#">Instagram</a>
+              <a href="/">Instagram</a>
             </li>
             <li>
-              <a href="#">LinkedIn</a>
+              <a href="/">LinkedIn</a>
             </li>
             <li>
-              <a href="#">Youtube</a>
+              <a href="/">Youtube</a>
             </li>
             <li>
-              <a href="#">Twitter</a>
+              <a href="/">Twitter</a>
             </li>
           </ul>
         </div>

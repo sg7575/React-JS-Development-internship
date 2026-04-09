@@ -16,7 +16,7 @@ export default function Tomorrow() {
           Together, we believe that progress only happens when you refuse to
           play things safe.
         </p>
-        <a href="#" className="read-more">
+        <a href="/" className="read-more">
           Read more
         </a>
       </div>

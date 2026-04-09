@@ -23,7 +23,7 @@ export default function Progress() {
           makers to accelerate their progress in areas such as brand, design
           digital, comms and social research.
         </p>
-        <a href="#" className="read-more">
+        <a href="/" className="read-more">
           Read more
         </a>
       </div>

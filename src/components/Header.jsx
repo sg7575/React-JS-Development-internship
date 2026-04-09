@@ -7,19 +7,19 @@ export default function Header() {
       <h2>Elementum</h2>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#">Studio</a>
+          <a href="/">Studio</a>
         </li>
         <li>
-          <a href="#">Service</a>
+          <a href="/">Service</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="/">Contact</a>
         </li>
         <li>
-          <a href="#">FAQs</a>
+          <a href="/">FAQs</a>
         </li>
       </ul>
       <div className="menu-icon">&#9776;</div>
